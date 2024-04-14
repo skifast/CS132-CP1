@@ -1,0 +1,169 @@
+
+/*
+    name: Valerie Hetherington
+    CS 132 Spring 2024
+    Date: April 13th, 2024
+    This is a style.css page for my about me page and my about Waffle page
+*/
+
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #FB6F92;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#titlesection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #FFC2D1;
+    text-align: center;
+    justify-content: center;
+    color: yellow;
+    font-size: 30px;
+}
+
+#direction-section{
+    display: flex;
+}
+
+#left-section{
+    background-color: #FF8FAB;
+    height: 1200px;
+    width: 25%; 
+}
+
+section > p {
+    text-align: justify;
+    margin: 10px;
+}
+
+p,figcaption{
+    font-size: 1.2em;
+    margin: 10px;
+} 
+
+img {
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+}
+
+#middle-section{
+    background-color: #FFB3C6;
+    height: 1200px;
+    width: 49%; 
+}
+
+#deerfieldimg{
+    float: left; 
+}
+
+#caltechimg{
+    float: right; 
+}
+
+#right-section{
+    background-color: #FFC2D1;
+    height: 1200px;
+    width: 25%; 
+}
+
+#skiimg{
+    height: 150px;
+    width: 220px;
+    float: left;
+}
+
+#soccerimg{
+    height: 150px;
+    width: 220px;
+    float: right; 
+}
+
+#rowingimg{
+    height: 150px;
+    width: 220px;
+    float: left; 
+}
+
+figcaption{
+    color: yellow;
+}
+
+#section1{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#waffle1{
+    width: 400px;
+    height: 300px;
+}
+
+#waffle2{
+    width: 300px;
+    height: 350px;
+}
+
+#waffle3{
+    width: 300px;
+    height: 450px;
+}
+
+#waffle4{
+    width: 350px;
+    height: 450px;
+}
+
+#waffle5{
+    width: 450px;
+    height: 450px;
+}
+
+#waffle6{
+    width: 350px;
+    height: 500px;
+}
+
+#waffle7{
+    width: 400px;
+    height: 350px;
+}
+
+#waffle8{
+    width: 500px;
+    height: 450px;
+}
